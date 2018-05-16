@@ -5,4 +5,8 @@
     <string name="nav_header_title">Good Quotes</string>
     <string name="nav_header_subtitle">Get your daily motivational quotes</string>
     <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="homeFragment">Home fragment</string>
+    <string name="settingFragment">Setting fragment</string>
 </resources>
