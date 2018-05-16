@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trending"
+            android:checked="true"
+            android:title="Trending" />
+        <item
+            android:id="@+id/nav_inspirational"
+            android:title="Inspirational" />
+        <item
+            android:id="@+id/nav_love"
+            android:title="Love" />
+        <item
+            android:id="@+id/nav_humor"
+            android:title="Humor" />
+        <item
+            android:id="@+id/nav_philosophy"
+            android:title="Philosophy" />
+        <item
+            android:id="@+id/nav_time"
+            android:title="Time" />
+        <item
+            android:id="@+id/nav_success"
+            android:title="Success" />
+        <item
+            android:id="@+id/nav_motivation"
+            android:title="Motivation" />
+    </group>
+
+</menu>
