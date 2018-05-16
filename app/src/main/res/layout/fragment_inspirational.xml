@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inspirational">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/inspirationQuote_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="25dp"
+            android:text="We believe in ordinary acts of bravery, in the courage that drives one person to stand up for another."
+            android:textStyle="bold"
+            android:textSize="22dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <TextView
+            android:id="@+id/inspirationWriter_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="end"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp"
+            android:text="― Veronica Roth, Divergent"
+            android:textAlignment="textEnd"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="41dp"
+            tools:ignore="MissingConstraints" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@android:color/darker_gray"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="68dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/inspirationQuote_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="25dp"
+            android:text="Don't think or judge, just listen."
+            android:textStyle="bold"
+            android:textSize="22dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <TextView
+            android:id="@+id/inspirationWriter_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="end"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp"
+            android:text="― Sarah Dessen"
+            android:textAlignment="textEnd"
+            tools:layout_editor_absoluteX="274dp"
+            tools:layout_editor_absoluteY="96dp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</FrameLayout>
