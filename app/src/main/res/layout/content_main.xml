@@ -28,7 +28,7 @@
 
         <TextView
             android:id="@+id/inspirationWriter_1"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:gravity="end"
@@ -50,7 +50,7 @@
 
         <TextView
             android:id="@+id/inspirationQuote_2"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:paddingLeft="10px"
@@ -63,7 +63,7 @@
 
         <TextView
             android:id="@+id/inspirationWriter_2"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:gravity="end"

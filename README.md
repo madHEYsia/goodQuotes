@@ -1,1 +1,1 @@
-# goodQuotes
+Good Quotes - Android app for daily quotes
