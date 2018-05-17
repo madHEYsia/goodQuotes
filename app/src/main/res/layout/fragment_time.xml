@@ -5,10 +5,2740 @@
     android:layout_height="match_parent"
     tools:context=".Time">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Time" />
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/timeQuote_8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Thomas A. Edison"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Marie Curie"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Sometimes it is not enough to do our best; we must do what is required."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Winston Churchill"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="I suppose leadership at one time meant muscles; but today it means getting along with people."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Mahatma Gandhi"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Valuable advice can sometimes come from an unexpected source, and chance events can sometimes open new doors."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Narayana Murthy"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Don’t wait. The time will never be just right."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Napoleon Hill"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="You renew yourself every day. Sometimes you’re successful, sometimes you’re not, but it’s the average that counts."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Satya Nadella"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="It does not matter how many times you get knocked down, but how many times you get up."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Vince Lombardi"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="They always say time changes things, but you actually have to change them yourself."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Andy Warhol"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="The greatest glory in living lies not in never falling, but in rising every time we fall."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Nelson Mandela"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_18"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Thomas A. Edison"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_19"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="When someone shows you who they are, believe them the first time."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_19"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Maya Angelou"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Over time, the hurt doesn’t hurt. Only regret does."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Terri Guillemets"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="In order to succeed you must fail, so that you know what not to do the next time."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_21"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Anthony J. D’Angelo"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="A friend is what the heart needs all the time."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_22"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Henry Van Dyke"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="You have enemies? Good. That means you’ve stood up for something, sometime in your life."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_23"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Winston Churchill"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="We must use time as a tool, not as a couch."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_24"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– John F. Kennedy"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Sometimes life hits you in the head with a brick. Don’t lose faith."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_25"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Steve Jobs"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_26"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Someone is sitting in the shade today because someone planted a tree a long time ago."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_26"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Warren Buffett"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_27"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Nothing is a waste of time if you use the experience wisely."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_27"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Auguste Rodin"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="A moment’s insight is sometimes worth a life’s experience."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_28"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Oliver Wendell Holmes, Sr."
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_29"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Sometimes it’s the smallest decisions that can change your life forever."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_29"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Keri Russell"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Sometimes by losing a battle, you find a new way to win the war."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_30"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Donald Trump"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_31"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Give a man a fish and you feed him for a day; teach a man to fish and you feed him a lifetime."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_31"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Maimonides"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_32"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Success is simple. Do what’s right, the right way, at the right time."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_32"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Arnold H. Glasow"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_33"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="People won’t have time for you if you are always angry or complaining."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_33"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Stephen Hawking"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_34"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="It takes a long time to become young."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_34"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Pablo Picasso"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_35"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Try to be a rainbow in someone’s cloud."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_35"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Maya Angelou"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_36"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Believe you can and you’re halfway there."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_36"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Theodore Roosevelt"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_37"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Leadership does not depend on being right."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_37"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Ivan Illich"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_38"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Trust in dreams, for in them is hidden the gate to eternity."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_38"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Khalil Gibran"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_39"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="The only journey is the one within."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_39"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Rainer Maria Rilke"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_40"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Never look backward or you’ll fall down the stairs."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_40"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Rudyard Kipling"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_41"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Correction does much, but encouragement does more."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_41"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Johann Wolfgang von Goethe"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_42"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="It is always the simple that produces the marvelous."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_42"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Amelia Barr"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_43"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="I believe much trouble would be saved if we opened out hearts more."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_43"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Chief Joseph"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_44"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="The supreme accomplishment is to blur the line between work and play."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_44"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Arnold J. Toynbee"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_45"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="You must learn to be still in the midst of activity and to be vibrantly alive in repose."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_45"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Indira Gandhi"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_46"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="The only solutions that are ever worth anything are the solutions that people find themselves."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_46"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Satyajit Ray"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_47"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="An eye for an eye only ends up making the whole world blind."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_47"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Mahatma Gandhi"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_48"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="There are many things that, if I have to relive, maybe I will do it another way. But I would not like to look back and think what I have not been able to."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_48"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Ratan Tata"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_49"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Don’t take rest after your first victory because if you fail in second, more lips are waiting to say that your first victory was just luck."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_49"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_50"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="All birds find shelter during a rain. But eagle avoids rain by flying above the clouds."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_50"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_51"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Without your involvement, you can’t succeed. With your involvement, you can’t fail."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_51"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="-A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_52"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Thinking should become your capital asset, no matter whatever ups and downs you come across in your life."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_52"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_53"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="It is very easy to defeat someone, but it is very hard to win someone."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_53"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_54"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Dream, Dream, Dream. Dreams transform into thoughts and thoughts result in action."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_54"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_55"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Be more dedicated to making solid achievements than in running after swift but synthetic happiness."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_55"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_56"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Our prime purpose in this life is to help others. And if you can’t help them, at least, don’t hurt them."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_56"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Dalai Lama"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_57"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Three things cannot be long hidden: the sun, the moon, and the truth."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_57"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Buddha"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_58"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Truth can be stated in a thousand different ways, yet each one can be true."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_58"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Swami Vivekananda"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_59"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="First they ignore you, then they laugh at you, then they fight you, then you win."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_59"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Mahatma Gandhi"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_60"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Let us sacrifice our today so that our children can have a better tomorrow."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_60"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_61"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Things do not happen. Things are made to happen."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_61"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– John F. Kennedy"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_62"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="There’s always some room for improvisation."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_62"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Satyajit Ray"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_63"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Keep your eyes on the stars, and your feet on the ground."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_63"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Theodore Roosevelt"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_64"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="If there is one place on the face of earth where all the dreams of living men have found a home from the very earliest days when man began the dream of existence, it is India."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_64"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Nobel Laureate Romain Rolland"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_65"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Bombs and pistols do not make a revolution. The sword of revolution is sharpened on the whetting-stone of ideas."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_65"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Bhagat Singh"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_66"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Expect problems and eat them for breakfast."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_66"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Alfred A. Montapert"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_67"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Do not wait to strike till the iron is hot, but make it hot by striking."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_67"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– William Butler Yeats"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_68"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="When an idea exclusively occupies the mind, it is transformed into an actual physical or mental state."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_68"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Swami Vivekananda"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_69"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="The harder the conflict, the more glorious the triumph."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_69"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Thomas Paine"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_70"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Sleep is the best meditation."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_70"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Dalai Lama"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_71"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="If you can dream it, you can do it."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_71"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Walt Disney"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_72"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="One finds limits by pushing them."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_72"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Herbert Simon"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_73"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Life is a difficult game. You can win it only by retaining your birthright to be a person."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_73"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Dr. A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_74"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="Life is a difficult game. You can win it only by retaining your birthright to be a person."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_74"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Dr. A P J Abdul Kalam"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_75"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="The past cannot be changed. The future is yet in your power."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_75"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Mary Pickford"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_76"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="A goal is a dream with a deadline."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_76"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– Napoleon Hill"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@android:color/darker_gray"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="68dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/timeQuote_77"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="25dp"
+                android:text="If you fell down yesterday, stand up today."
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <TextView
+                android:id="@+id/timeWriter_77"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="end"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="25dp"
+                android:text="– H. G. Wells"
+                android:textAlignment="textEnd"
+                tools:layout_editor_absoluteX="274dp"
+                tools:layout_editor_absoluteY="96dp"
+                tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </FrameLayout>
