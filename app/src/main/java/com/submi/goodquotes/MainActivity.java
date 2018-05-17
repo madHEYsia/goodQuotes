@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Set the home as default
-        Fragment fragment = new Trending();
+        Fragment fragment = new Home();
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.content, fragment)
@@ -64,9 +64,11 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         // Create a new fragment and specify the planet to show based on position
-        Fragment fragment = new Trending();
+        Fragment fragment = new Home();
 
-        if(id == R.id.nav_inspirational) {
+        if(id == R.id.nav_trending) {
+            fragment = new Trending();
+        } else if(id == R.id.nav_inspirational) {
             fragment = new Inspirational();
         } else if(id == R.id.nav_love) {
             fragment = new Love();
