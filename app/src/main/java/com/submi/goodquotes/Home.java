@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.SearchView;
 
 public class Home extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
