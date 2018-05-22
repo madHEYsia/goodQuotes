@@ -1,6 +1,7 @@
 package com.submi.goodquotes;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -46,12 +47,12 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    public void searchQuote(View view){
+    public void searchQuote(View view, String query){
         if (view != null) {
             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
-        Fragment fragment = new Motivational();
+        Fragment fragment = new SearchResult();
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.content, fragment)
@@ -152,6 +153,14 @@ public class MainActivity extends AppCompatActivity
         fragmentManager.beginTransaction()
                 .replace(R.id.content, fragment)
                 .commit();
+    }
+
+    public void shareThis(String context){
+        Intent shareIntent = new Intent();
+        shareIntent.setAction(Intent.ACTION_SEND);
+        shareIntent.putExtra(Intent.EXTRA_TEXT,context);
+        shareIntent.setType("text/plain");
+        startActivity(shareIntent);
     }
 
     @Override

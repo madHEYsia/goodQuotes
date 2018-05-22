@@ -1,25 +1,22 @@
 package com.submi.goodquotes;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.Random;
 
-public class Trending extends Fragment {
+public class SearchResult extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
@@ -29,12 +26,12 @@ public class Trending extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Trending() {
+    public SearchResult() {
         // Required empty public constructor
     }
 
-    public static Trending newInstance(String param1, String param2) {
-        Trending fragment = new Trending();
+    public static SearchResult newInstance(String param1, String param2) {
+        SearchResult fragment = new SearchResult();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -54,14 +51,14 @@ public class Trending extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View mContainer = inflater.inflate(R.layout.fragment_trending, null);
-        LinearLayout linearLayout = mContainer.findViewById(R.id.mainLayout);
+        View mContainer = inflater.inflate(R.layout.fragment_search_result, null);
+        LinearLayout linearLayout = mContainer.findViewById(R.id.searchLayout);
         Random r = new Random();
         quoteArray ob = new quoteArray();
-        final String array[][] = ob.quotes;
+        String array[][] = ob.quotes;
         int length = array.length;
         for (int i=0;i<100;++i){
-            final int index = r.nextInt(length);
+            int index = r.nextInt(length);
             TextView quote = new TextView(getActivity());
             quote.setLayoutParams(new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.FILL_PARENT,
@@ -70,16 +67,6 @@ public class Trending extends Fragment {
             quote.setText(array[index][0]);
             quote.setTypeface(null, Typeface.BOLD);
             quote.setTextSize(TypedValue.COMPLEX_UNIT_SP, 19);
-            quote.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent shareIntent = new Intent();
-                    shareIntent.setAction(Intent.ACTION_SEND);
-                    shareIntent.putExtra(Intent.EXTRA_TEXT,array[index][0]+" "+array[index][1]);
-                    shareIntent.setType("text/plain");
-                    startActivity(shareIntent);
-                }
-            });
 
             TextView writer = new TextView(getActivity());
             writer.setLayoutParams(new ViewGroup.LayoutParams(
@@ -89,16 +76,6 @@ public class Trending extends Fragment {
             writer.setText(array[index][1]);
             writer.setGravity(Gravity.END);
             writer.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
-            writer.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent shareIntent = new Intent();
-                    shareIntent.setAction(Intent.ACTION_SEND);
-                    shareIntent.putExtra(Intent.EXTRA_TEXT,array[index][0]+" "+array[index][1]);
-                    shareIntent.setType("text/plain");
-                    startActivity(shareIntent);
-                }
-            });
 
             View separator = new View(getActivity());
             separator.setLayoutParams(new ViewGroup.LayoutParams(
