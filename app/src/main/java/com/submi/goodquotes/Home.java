@@ -52,8 +52,7 @@ public class Home extends Fragment {
             @Override
             public boolean onQueryTextSubmit(String query) {
 
-                MainActivity ob = new MainActivity();
-                ob.searchQuote(mContainer, query);
+
                 return true;
             }
             @Override

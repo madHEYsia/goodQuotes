@@ -47,18 +47,6 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    public void searchQuote(View view, String query){
-        if (view != null) {
-            InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
-            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
-        }
-        Fragment fragment = new SearchResult();
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction()
-                .replace(R.id.content, fragment)
-                .commit();
-    }
-
     public void trendingQuote(View view){
         if (view != null) {
             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
