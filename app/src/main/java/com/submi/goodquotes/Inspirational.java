@@ -55,7 +55,7 @@ public class Inspirational extends Fragment {
         LinearLayout linearLayout = mContainer.findViewById(R.id.inspirational_layout);
         quoteArray ob = new quoteArray();
         final String array[][] = ob.quotes;
-        for (int i=0;i<144;++i){
+        for (int i=0;i<250;++i){
             TextView quote = new TextView(getActivity());
             quote.setLayoutParams(new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.FILL_PARENT,
@@ -63,7 +63,7 @@ public class Inspirational extends Fragment {
             quote.setPadding(40,40,40,0);
             quote.setText(array[i][0]);
             quote.setTypeface(null, Typeface.BOLD);
-            quote.setTextSize(TypedValue.COMPLEX_UNIT_SP, 19);
+            quote.setTextSize(TypedValue.COMPLEX_UNIT_SP, 17);
             final int finalI = i;
             quote.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -83,7 +83,7 @@ public class Inspirational extends Fragment {
             writer.setPadding(40,0,40,40);
             writer.setText(array[i][1]);
             writer.setGravity(Gravity.END);
-            writer.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+            writer.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
             writer.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -98,7 +98,7 @@ public class Inspirational extends Fragment {
             View separator = new View(getActivity());
             separator.setLayoutParams(new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT,
-                    10));
+                    8));
             separator.setBackgroundColor(Color.parseColor("#B3B3B3"));
 
             try{
