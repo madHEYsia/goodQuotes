@@ -15,7 +15,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.util.Random;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 
 public class Humor extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -107,6 +109,16 @@ public class Humor extends Fragment {
                 linearLayout.addView(quote);
                 linearLayout.addView(writer);
                 linearLayout.addView(separator);
+
+                if (i%10==0){
+                    AdView mAdView = new AdView(getActivity());
+                    mAdView.setAdSize(AdSize.BANNER);
+                    mAdView.setAdUnitId("ca-app-pub-7600086344629483/9920526515");
+                    AdRequest adRequest = new AdRequest.Builder().build();
+                    mAdView.loadAd(adRequest);
+                    linearLayout.addView(mAdView);
+                }
+
             }catch(Exception e){
                 e.printStackTrace();
             }

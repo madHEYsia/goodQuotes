@@ -13,9 +13,12 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 
 public class Home extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,6 +29,9 @@ public class Home extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    private AdView mAdView;
+    private InterstitialAd mInterstitialAd;
 
     public Home() {
         // Required empty public constructor
@@ -55,8 +61,14 @@ public class Home extends Fragment {
         // Inflate the layout for this fragment
         final View mContainer = inflater.inflate(R.layout.fragment_home, null);
 
+        mAdView = mContainer.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+        mInterstitialAd = new InterstitialAd(getActivity());
+        mInterstitialAd.setAdUnitId("ca-app-pub-7600086344629483/6145411968");
+
         final SearchView searchView = (SearchView) mContainer.findViewById(R.id.searchbox);
-        searchView.clearFocus();
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
@@ -139,6 +151,8 @@ public class Home extends Fragment {
                         e.printStackTrace();
                     }
                 }
+                else
+                    mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
                 return true;
             }

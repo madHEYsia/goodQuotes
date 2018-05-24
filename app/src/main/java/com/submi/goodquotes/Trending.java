@@ -17,6 +17,10 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+
 import java.util.Random;
 
 public class Trending extends Fragment {
@@ -110,6 +114,16 @@ public class Trending extends Fragment {
                 linearLayout.addView(quote);
                 linearLayout.addView(writer);
                 linearLayout.addView(separator);
+
+                if (i!=0 && i%10==0){
+                    AdView mAdView = new AdView(getActivity());
+                    mAdView.setAdSize(AdSize.BANNER);
+                    mAdView.setAdUnitId("ca-app-pub-7600086344629483/9920526515");
+                    AdRequest adRequest = new AdRequest.Builder().build();
+                    mAdView.loadAd(adRequest);
+                    linearLayout.addView(mAdView);
+                }
+
             }catch(Exception e){
                 e.printStackTrace();
             }
