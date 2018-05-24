@@ -98,7 +98,7 @@ public class Success extends Fragment {
             View separator = new View(getActivity());
             separator.setLayoutParams(new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT,
-                    8));
+                    3));
             separator.setBackgroundColor(Color.parseColor("#B3B3B3"));
 
             try{

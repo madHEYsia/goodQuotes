@@ -68,7 +68,7 @@ public class Home extends Fragment {
                 int len = array.length;
                 boolean anyFound = false;
                 for (int i=0;i<len;++i){
-                    if (array[i][0].indexOf(query)>0 || array[i][1].indexOf(query)>0){
+                    if (array[i][0].toLowerCase().indexOf(query.toLowerCase())>0 || array[i][1].toLowerCase().indexOf(query.toLowerCase())>0){
                         anyFound = true;
                         TextView quote = new TextView(getActivity());
                         quote.setLayoutParams(new ViewGroup.LayoutParams(
@@ -112,7 +112,7 @@ public class Home extends Fragment {
                         View separator = new View(getActivity());
                         separator.setLayoutParams(new ViewGroup.LayoutParams(
                                 ViewGroup.LayoutParams.MATCH_PARENT,
-                                8));
+                                3));
                         separator.setBackgroundColor(Color.parseColor("#B3B3B3"));
 
                         try{
