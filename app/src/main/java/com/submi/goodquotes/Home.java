@@ -73,6 +73,14 @@ public class Home extends Fragment {
         mAdView.loadAd(adRequest);
 
         final SearchView searchView = (SearchView) mContainer.findViewById(R.id.searchbox);
+        new android.os.Handler().postDelayed(
+                new Runnable() {
+                    public void run() {
+                        searchView.setIconifiedByDefault(false);
+                    }
+                },
+                300);
+
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
