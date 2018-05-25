@@ -7,19 +7,13 @@ import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
 
 import java.util.Random;
 
@@ -61,7 +55,7 @@ public class Trending extends Fragment {
         View mContainer = inflater.inflate(R.layout.fragment_trending, null);
         LinearLayout linearLayout = mContainer.findViewById(R.id.mainLayout);
         Random r = new Random();
-        quoteArray ob = new quoteArray();
+        constants ob = new constants();
         final String array[][] = ob.quotes;
         int length = array.length;
         for (int i=0;i<100;++i){
@@ -114,16 +108,6 @@ public class Trending extends Fragment {
                 linearLayout.addView(quote);
                 linearLayout.addView(writer);
                 linearLayout.addView(separator);
-
-                if (i!=0 && i%10==0){
-                    AdView mAdView = new AdView(getActivity());
-                    mAdView.setAdSize(AdSize.BANNER);
-                    mAdView.setAdUnitId("ca-app-pub-7600086344629483/9920526515");
-                    AdRequest adRequest = new AdRequest.Builder().build();
-                    mAdView.loadAd(adRequest);
-                    linearLayout.addView(mAdView);
-                }
-
             }catch(Exception e){
                 e.printStackTrace();
             }

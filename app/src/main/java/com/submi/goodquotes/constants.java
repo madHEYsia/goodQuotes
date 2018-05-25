@@ -1,6 +1,8 @@
 package com.submi.goodquotes;
 
-public class quoteArray {
+public class constants {
+
+    static boolean displayInterstialAd = true;
 
     public String quotes[][]=
     {

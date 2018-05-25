@@ -141,10 +141,11 @@
                 android:id="@+id/adView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingTop="10sp"
                 android:layout_centerHorizontal="true"
                 android:layout_alignParentBottom="true"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-7600086344629483/9920526515">
+                ads:adUnitId="ca-app-pub-7600086344629483/5465058873">
             </com.google.android.gms.ads.AdView>
 
         </LinearLayout>

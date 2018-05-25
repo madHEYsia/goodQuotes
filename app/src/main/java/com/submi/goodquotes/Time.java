@@ -53,7 +53,7 @@ public class Time extends Fragment {
         // Inflate the layout for this fragment
         View mContainer = inflater.inflate(R.layout.fragment_time, null);
         LinearLayout linearLayout = mContainer.findViewById(R.id.time_layout);
-        quoteArray ob = new quoteArray();
+        constants ob = new constants();
         final String array[][] = ob.quotes;
         for (int i=627;i<870;++i){
             TextView quote = new TextView(getActivity());

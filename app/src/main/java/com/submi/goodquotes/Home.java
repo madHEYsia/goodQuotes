@@ -17,8 +17,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.AdView;
 
 public class Home extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -30,7 +30,6 @@ public class Home extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    private AdView mAdView;
     private InterstitialAd mInterstitialAd;
 
     public Home() {
@@ -61,12 +60,17 @@ public class Home extends Fragment {
         // Inflate the layout for this fragment
         final View mContainer = inflater.inflate(R.layout.fragment_home, null);
 
-        mAdView = mContainer.findViewById(R.id.adView);
+        mInterstitialAd = new InterstitialAd(getActivity());
+        mInterstitialAd.setAdUnitId("ca-app-pub-7600086344629483/2790508661");
+        if (constants.displayInterstialAd){
+            mInterstitialAd.loadAd(new AdRequest.Builder().build());
+            mInterstitialAd.show();
+            constants.displayInterstialAd = false;
+        }
+
+        AdView mAdView = mContainer.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-
-        mInterstitialAd = new InterstitialAd(getActivity());
-        mInterstitialAd.setAdUnitId("ca-app-pub-7600086344629483/6145411968");
 
         final SearchView searchView = (SearchView) mContainer.findViewById(R.id.searchbox);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -75,7 +79,7 @@ public class Home extends Fragment {
                 searchView.clearFocus();
                 LinearLayout linearLayout = mContainer.findViewById(R.id.home_layout);
                 linearLayout.removeAllViewsInLayout();
-                quoteArray ob = new quoteArray();
+                constants ob = new constants();
                 final String array[][] = ob.quotes;
                 int len = array.length;
                 boolean anyFound = false;
@@ -151,8 +155,6 @@ public class Home extends Fragment {
                         e.printStackTrace();
                     }
                 }
-                else
-                    mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
                 return true;
             }

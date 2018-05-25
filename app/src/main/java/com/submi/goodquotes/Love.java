@@ -15,10 +15,6 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
-
 public class Love extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -57,7 +53,7 @@ public class Love extends Fragment {
         // Inflate the layout for this fragment
         View mContainer = inflater.inflate(R.layout.fragment_love, null);
         LinearLayout linearLayout = mContainer.findViewById(R.id.love_layout);
-        quoteArray ob = new quoteArray();
+        constants ob = new constants();
         final String array[][] = ob.quotes;
         for (int i=250;i<392;++i){
             TextView quote = new TextView(getActivity());
@@ -109,16 +105,6 @@ public class Love extends Fragment {
                 linearLayout.addView(quote);
                 linearLayout.addView(writer);
                 linearLayout.addView(separator);
-
-                if (i%10==0){
-                    AdView mAdView = new AdView(getActivity());
-                    mAdView.setAdSize(AdSize.BANNER);
-                    mAdView.setAdUnitId("ca-app-pub-7600086344629483/9920526515");
-                    AdRequest adRequest = new AdRequest.Builder().build();
-                    mAdView.loadAd(adRequest);
-                    linearLayout.addView(mAdView);
-                }
-
             }catch(Exception e){
                 e.printStackTrace();
             }
