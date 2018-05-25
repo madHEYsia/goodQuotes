@@ -15,6 +15,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Motivational extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -52,6 +55,11 @@ public class Motivational extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View mContainer = inflater.inflate(R.layout.fragment_motivational, null);
+
+        AdView mAdView = mContainer.findViewById(R.id.motivationalAd);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
         LinearLayout linearLayout = mContainer.findViewById(R.id.motivational_layout);
         constants ob = new constants();
         final String array[][] = ob.quotes;

@@ -15,6 +15,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.Random;
 
 public class Trending extends Fragment {
@@ -53,6 +56,11 @@ public class Trending extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View mContainer = inflater.inflate(R.layout.fragment_trending, null);
+
+        AdView mAdView = mContainer.findViewById(R.id.trendingAd);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
         LinearLayout linearLayout = mContainer.findViewById(R.id.mainLayout);
         Random r = new Random();
         constants ob = new constants();

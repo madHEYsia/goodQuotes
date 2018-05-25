@@ -6,150 +6,159 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Home">
 
-    <ScrollView
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:id="@+id/home_layout"
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/home_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
 
-                <android.support.v7.widget.SearchView
-                    android:id="@+id/searchbox"
-                    android:paddingTop="30px"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40sp"
-                    android:gravity="center"
-                    app:queryHint="Search Quotes/ Writer">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
 
-                </android.support.v7.widget.SearchView>
+                    <android.support.v7.widget.SearchView
+                        android:id="@+id/searchbox"
+                        android:paddingTop="30px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40sp"
+                        android:gravity="center"
+                        app:queryHint="Search Quotes/ Writer">
+
+                    </android.support.v7.widget.SearchView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/sidePadding"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/button_trending"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/quotesSize"
+                        android:text="TRENDING"
+                        android:onClick="trendingQuote"/>
+
+                    <Button
+                        android:id="@+id/button_inspiration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/quotesSize"
+                        android:text="INSPIRATION"
+                        android:onClick="inspiringQuote"
+                    />
+
+                    <Button
+                        android:id="@+id/button_love"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/quotesSize"
+                        android:text="LOVE"
+                        android:onClick="loveQuote"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/sidePadding"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/button_humor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/quotesSize"
+                        android:text="HUMOR"
+                        android:onClick="humorQuote"/>
+
+                    <Button
+                        android:id="@+id/button_philosophy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/quotesSize"
+                        android:text="PHILOSOPHY"
+                        android:onClick="philosophyQuote"/>
+
+                    <Button
+                        android:id="@+id/button_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/quotesSize"
+                        android:text="TIME"
+                        android:onClick="timeQuote"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/sidePadding"
+                    android:gravity="center" >
+
+                    <Button
+                        android:id="@+id/button_success"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/quotesSize"
+                        android:text="SUCCESS"
+                        android:onClick="successQuote"/>
+
+                    <Button
+                        android:id="@+id/button_motivational"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/quotesSize"
+                        android:text="MOTIVATIONAL"
+                        android:onClick="motivationalQuote"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/linearLayout1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/sidePadding"
-                android:gravity="center" >
+        </ScrollView>
 
-                <Button
-                    android:id="@+id/button_trending"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/quotesSize"
-                    android:text="TRENDING"
-                    android:onClick="trendingQuote"/>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-7600086344629483/5465058873">
+        </com.google.android.gms.ads.AdView>
 
-                <Button
-                    android:id="@+id/button_inspiration"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/quotesSize"
-                    android:text="INSPIRATION"
-                    android:onClick="inspiringQuote"
-                />
-
-                <Button
-                    android:id="@+id/button_love"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/quotesSize"
-                    android:text="LOVE"
-                    android:onClick="loveQuote"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/sidePadding"
-                android:gravity="center" >
-
-                <Button
-                    android:id="@+id/button_humor"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/quotesSize"
-                    android:text="HUMOR"
-                    android:onClick="humorQuote"/>
-
-                <Button
-                    android:id="@+id/button_philosophy"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/quotesSize"
-                    android:text="PHILOSOPHY"
-                    android:onClick="philosophyQuote"/>
-
-                <Button
-                    android:id="@+id/button_time"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/quotesSize"
-                    android:text="TIME"
-                    android:onClick="timeQuote"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/sidePadding"
-                android:gravity="center" >
-
-                <Button
-                    android:id="@+id/button_success"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/quotesSize"
-                    android:text="SUCCESS"
-                    android:onClick="successQuote"/>
-
-                <Button
-                    android:id="@+id/button_motivational"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="@dimen/quotesSize"
-                    android:text="MOTIVATIONAL"
-                    android:onClick="motivationalQuote"/>
-
-            </LinearLayout>
-
-            <com.google.android.gms.ads.AdView
-                xmlns:ads="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/adView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10sp"
-                android:layout_centerHorizontal="true"
-                android:layout_alignParentBottom="true"
-                ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-7600086344629483/5465058873">
-            </com.google.android.gms.ads.AdView>
-
-        </LinearLayout>
-
-    </ScrollView>
+    </RelativeLayout>
 
 </FrameLayout>
