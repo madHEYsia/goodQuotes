@@ -62,11 +62,6 @@ public class Home extends Fragment {
 
         mInterstitialAd = new InterstitialAd(getActivity());
         mInterstitialAd.setAdUnitId("ca-app-pub-7600086344629483/2790508661");
-        if (constants.displayInterstialAd){
-            mInterstitialAd.loadAd(new AdRequest.Builder().build());
-            mInterstitialAd.show();
-            constants.displayInterstialAd = false;
-        }
 
         AdView mAdView = mContainer.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
@@ -85,6 +80,11 @@ public class Home extends Fragment {
             @Override
             public boolean onQueryTextSubmit(String query) {
                 searchView.clearFocus();
+        //        if (constants.displayInterstialAd){
+                        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+                        mInterstitialAd.show();
+        //        constants.displayInterstialAd = false;
+        //        }
                 LinearLayout linearLayout = mContainer.findViewById(R.id.home_layout);
                 linearLayout.removeAllViewsInLayout();
                 constants ob = new constants();
