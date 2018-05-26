@@ -1,1 +1,1 @@
-Good Quotes - Android app for daily quotes
+Motivational Mantras - Android app for daily quotes
